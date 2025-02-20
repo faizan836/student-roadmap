@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Let's Chat</h2>
+            <p>Whether you have a question, want to start a project, or simply want to connect. Feel free to send me a message in the contact form.</p>
+        </div>
+        <div class="right">
+            <h2>Contact</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="e23eee3d-84c8-4a19-8b0c-7c796aaa75a5">
+                
+                <input type="text" name="name" placeholder="Name *" required>
+                <input type="email" name="email" placeholder="Email *" required>
+                <input type="tel" name="phone" placeholder="Phone">
+                <textarea name="message" placeholder="Message"></textarea>
+                
+                <button type="submit">SUBMIT</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
